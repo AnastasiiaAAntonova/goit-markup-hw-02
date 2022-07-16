@@ -1,0 +1,17 @@
+:root {
+	--header-color: #212121;
+	--text-color: #757575;
+	--accent-color: #2196f3;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.list {
+	list-style: none;
+}
