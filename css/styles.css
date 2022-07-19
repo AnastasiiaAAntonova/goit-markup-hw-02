@@ -22,8 +22,13 @@ body {
 	overflow: hidden;
 }
 
-.link {
+.link,
+.logo-link {
 	text-decoration: none;
+}
+
+.logo-link:focus {
+	color: var(--accent-color);
 }
 
 .link:hover,
@@ -102,6 +107,7 @@ body {
 	text-align: center;
 	letter-spacing: 0.06em;
 	color: #ffffff;
+	background-color: var(--accent-color);
 }
 
 /* ----------WORK PRINCIPLES---------- */
